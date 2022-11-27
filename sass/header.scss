@@ -1,0 +1,22 @@
+#header {
+    min-width: 320px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(225, 0, 255);
+    position: relative;
+    z-index: 3;
+    .logo{
+        position: absolute;
+        transition: all 1s ease-in-out;
+        top: 15px;
+        width: 72px;
+        right: calc(50vw - 36px);
+        z-index: 5;
+    }
+    a {
+        img{
+            width: 100px;
+            height: 100%;
+        }
+    }
+}
