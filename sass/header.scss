@@ -5,10 +5,11 @@
     background-color: rgb(225, 0, 255);
     position: relative;
     z-index: 3;
+    
     .logo{
         position: absolute;
         transition: all 1s ease-in-out;
-        top: 15px;
+        top: 5px;
         width: 72px;
         right: calc(50vw - 36px);
         z-index: 5;
@@ -20,14 +21,24 @@
         }
     }
     ul {
-        display: inline;
-        padding-left: 10px;
+        
+        width: 100%;
+        height: 75px;
+        flex-direction: row;
+        align-items:flex-end;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 0;
+        padding: 0;
         
         li {
-            font-size: 16px;
-            margin: 8px;   
+            margin:0 10px ;
+            font-size: .8em;
+            justify-content: space-between;   
+            
         }
         a {
+            color: white;
             text-decoration: none;
             font-family:Arial, Helvetica, sans-serif;
         }

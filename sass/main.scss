@@ -7,25 +7,28 @@
             picture {
                 justify-content: center;
                 img {
-                    width: 180px;
-                    height: 180px;
-                    border: 2px rgb(0, 0, 0) solid;
+                    width: 250px;
+                    height:100%;
+                    border: 2px rgba(138, 138, 138, 0.5) solid;
                     border-radius: 8px;
                     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-                    
                 }
             }
             figcaption {
                 text-align: center;
+                a {
+                    text-decoration: none;
+                    cursor: pointer;
+                }
                 
                 h2 {
                     font-family:Arial, Helvetica, sans-serif;
                     font-weight: bolder;
-            
+                    font-size: 1.3em;
                 }
                 p {
                     font-family: cursive;
-                    font-size: 18px;
+                    font-size: 1em;
                 }
             }
         }
